@@ -1,0 +1,277 @@
+.header-color {
+    background: black;
+    background: -webkit-linear-gradient(to left, black, white);
+    background: linear-gradient(to left, black, black);
+    opacity: 0.8;
+}
+
+
+/* .header-color {
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);
+    background: linear-gradient(to left, #FFC371, #FF5F6D);
+} */
+
+.landing-grid {
+    background: #DBE6F6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.project-grid {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner-text-demo {
+    background-color: white;
+    opacity: .9;
+    color: black;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+
+/* custom h1 inside banner-text */
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom h2 inside banner-text */
+
+.banner-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom h3 inside banner-text */
+
+.banner-text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom h4 inside banner-text */
+
+.banner-text h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom h5 inside banner-text */
+
+.banner-text h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom h6 inside banner-text */
+
+.banner-text h6 {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* custom hr inside banner-text */
+
+.banner-text hr {
+    border-top: 5px double white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text-demo hr {
+    border-top: 1px solid gray;
+    width: 95%;
+    margin: auto;
+}
+
+
+/* custom p inside banner-text */
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding-top: 0%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* custom i inside social-links */
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.contact-body {
+    margin: auto;
+    background: #DBE6F6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: rgba(39, 34, 31, 0.9);
+    color: white;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-grid i {
+    font-size: 66px;
+    padding-right: 5rem;
+    padding-left: 2rem;
+}
+
+
+/* background: #FF5F6D;
+    background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);
+    background: linear-gradient(to left, #FFC371, #FF5F6D); */
+
+.resume-grid {
+    background: #DBE6F6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+}
+
+.resume-left-col {
+    background: rgba(39, 34, 31, 0.9);
+    color: white;
+    padding: 2em;
+}
+
+
+/* Original color #27221f */
+
+.resume-right-col {
+    background: rgba(39, 34, 31, 0.9);
+    color: white;
+    padding: 2em;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #DBE6F6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projectPage-grid {
+    background: #FF5F6D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFC371, #FF5F6D);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.tab-style {
+    background: white;
+    background: -webkit-linear-gradient(to right, white, white);
+    background: linear-gradient(to right, white, white);
+    color: black;
+}
+
+.centering-Image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
